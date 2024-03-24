@@ -39,4 +39,5 @@ App.use("/", UserViewRoutes);
 
 App.listen(Constants.PORT, function(){
     console.log('Your node js server is running on PORT ' + Constants.PORT);
+    console.log('Test Jenkins');
 });
